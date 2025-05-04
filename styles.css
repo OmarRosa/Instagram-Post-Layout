@@ -20,7 +20,16 @@ h1{
 }
 .header{
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
     margin-left:10px;
     margin-right:10px;
+}
+
+.post-icons{
+    display:inline-block;
+    position: relative;
+} 
+i.fa-regular.fa-bookmark.fa-2x{
+   float:right;
+   margin-left: 370px;
 }
